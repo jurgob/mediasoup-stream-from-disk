@@ -1,12 +1,14 @@
 {
-  "name": "server-two",
+  "name": "@repo/server",
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
   "type": "module",
   "scripts": {
     "dev": "nodemon --watch 'src/**/*.ts' --exec 'npm run build && node dist/index.js'",
-    "build": "tsc"
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "typecheck:watch": "tsc --noEmit --watch"
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,23 @@
+{
+  "name": "mediasoup-stream-from-disk",
+  "version": "1.0.0",
+  "description": "Try to send a video file from disk to a mediasoup server",
+  "scripts": {
+    "lint": "turbo lint",
+    "typecheck": "turbo typecheck",
+    "dev": "turbo dev",
+    "all": "turbo lint typecheck",
+    "all:watch": "turbo lint:watch typecheck:watch dev"
+  },
+  "packageManager": "npm@10.0.0",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "turbo": "^2.1.2"
+  }
+}

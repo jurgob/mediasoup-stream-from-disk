@@ -43,7 +43,7 @@ type WebRtcTransportCallbackParam= {
 }
 
 export default function Home() {
-  
+  // const bool: boolean = "canaglia";
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const remoteVideoRef = useRef<HTMLVideoElement | null>(null);
 
