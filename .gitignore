@@ -3,3 +3,4 @@ client/node_modules
 client/.next
 server/dist
 node_modules
+.turbo/
